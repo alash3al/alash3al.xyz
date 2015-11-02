@@ -149,7 +149,7 @@
           // skills array
           var skills = [
             "DevOps", "Network Programmer", "Web App Security",
-            "Database Architecture", "Software Engineering",
+            "Database Architecture", "Software Architecture",
             "PHP", "JAVA", "PYTHON", "RUBY", "C", "C++", "Golang", "Javascript", "NodeJS",
             "HTML5", "CSS3", 
             "MYSQL", "Postgresql", "Elasticsearch", "Aerospike",
@@ -158,7 +158,7 @@
 
           // load skills
           for ( var k in skills ) {
-            $("#skills").append('<div class="col-xs-12 col-md-4 h4 text-left"><span class="fa fa-check"></span> &nbsp; ' + skills[k] + '</div>')
+            $("#skills").append('<div class="col-xs-12 col-md-4 h4 text-left"><span class="fa fa-check"></span> &nbsp; <a target="__blank" href="http://www.google.com/search?q=What+is+'+ skills[k] +'">' + skills[k] + '</a></div>')
           }
 
           // projects
